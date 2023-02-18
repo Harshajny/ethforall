@@ -114,3 +114,7 @@ html{
     text-decoration: none;
     cursor: pointer;
   }
+  .foot{
+    position:relative;
+    top:380px;
+  }
