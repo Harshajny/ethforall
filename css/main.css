@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+body{
+    background-color: rgb(13, 13, 13);
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.heading{
+    text-align: center;
+}
+.container{
+    min-height: 10vh;
+    width: 100%;
+    padding: 100px;
+}
+
+.navbar{
+    min-height: 5vh;
+    width: 100%;
+    background-color: rgb(174, 160, 160);
+    background-position: center;
+    height: 10%;
+    display: flex;
+    text-align: right;
+}
+
+
+.banner{
+    width: 55%;
+    height:50px;
+    margin: 0 auto;
+    display: flex;
+    color: rgb(6, 6, 6);
+    align-items: center;
+    position: relative;
+}
+
