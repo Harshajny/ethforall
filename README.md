@@ -30,7 +30,7 @@ We faced some difficulty in integrating the smart contract with the frontend.
 ## Future scopes
 We plan to integrate push notifications and notify users of the status of donations made.
 Apart from that we wish to implement push chat providing a platform for the donator to chat with the NGO's.
-Also we wish to give users access to the plaform and let the NGO's distribute the donations through the plaform for the needy ones.
+Also we wish to give users(Below Poverty Line Users) access to the plaform and let the NGO's distribute the donations through the platform for the needy ones.
 
 
 
