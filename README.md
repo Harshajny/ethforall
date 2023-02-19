@@ -27,5 +27,10 @@ Present donation systems pose a lot of problems including :
 Since we were working online and all the members were from different places , there was difficulty in collaborating and finding a perfect time to work together. Also since we had our classes and work it was a bit hectic to manage everything.
 We faced some difficulty in integrating the smart contract with the frontend.
 
+## Future scopes
+We plan to integrate push notifications and notify users of the status of donations made.
+Apart from that we wish to implement push chat providing a platform for the donator to chat with the NGO's.
+Also we wish to give users access to the plaform and let the NGO's distribute the donations through the plaform for the needy ones.
+
 
 
