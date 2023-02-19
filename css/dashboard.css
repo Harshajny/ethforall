@@ -1,60 +1,115 @@
-* {
-    box-sizing: border-box;
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i94_wlxdr.ttf) format('truetype');
   }
-  
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdr.ttf) format('truetype');
+  }
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+  }
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype');
+  }
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdr.ttf) format('truetype');
+  }
+  @font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 900;
+	src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlxdr.ttf) format('truetype');
+  }
   body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  }
-  
-  /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
+	background: #dce1df;
+	color: #4f585e;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-rendering: optimizeLegibility;
   }
   .dashboard{
     position: relative;
     top: 100px;
   }
   
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
+   
+  div.cards {
+	margin: 80px auto;
+	max-width: 960px;
+	text-align: center;
   }
-  
-  .row {
-    margin: 8px -16px;
-    display: flexbox;
+  div.card {
+	background: #ffffff;
+	display: inline-block;
+	margin: 8px;
+	max-width: 300px;
+	perspective: 1000;
+	position: relative;
+	text-align: left;
+	transition: all 0.3s 0s ease-in;
+	width: 300px;
+	z-index: 1;
   }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .col {
-    padding: 8px;
+  div.card img {
+	max-width: 300px;
   }
-  
-  /* Create four equal columns that floats next to each other */
-  .col {
-    display: flex;
-    width: 25%;
+  div.card .card__image-holder {
+	background: rgba(0, 0, 0, 0.1);
+	height: 0;
+	padding-bottom: 75%;
   }
-  
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  div.card div.card-title {
+	background: #ffffff;
+	padding: 6px 15px 10px;
+	position: relative;
+	z-index: 0;
   }
-  
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
+  div.card div.card-title a.toggle-info {
+	border-radius: 32px;
+	height: 32px;
+	padding: 0;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	width: 32px;
+  }
+  div.card div.card-title a.toggle-info span {
+	background: #ffffff;
+	display: block;
+	height: 2px;
+	position: absolute;
+	top: 16px;
+	transition: all 0.15s 0s ease-out;
+	width: 12px;
+  }
+ 
+  div.card div.card-title h2 {
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: -0.05em;
+	margin: 0;
+	padding: 0;
+  }
+  div.card div.card-title h2 small {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -0.025em;
   }
   .foot{
     position:relative;
-    top:250px;
-    
+    top:380px;
   }
-  
